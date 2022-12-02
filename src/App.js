@@ -1,10 +1,11 @@
 import './App.css';
+import Hero from './Pages/Hero';
 
 function App() {
   return (
-    <div>
-      <button className="btn">Hello daisyUI</button>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
 
