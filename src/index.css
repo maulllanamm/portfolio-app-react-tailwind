@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tester {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+}
