@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../Components/Organism/Header';
+import HeroHeader from '../Components/Organism/HeroHeader';
 import HeroPage from '../Components/Organism/HeroPage';
 
 export default function Hero() {
   return (
     <>
-      <Header />
+      <HeroHeader />
       <HeroPage />
     </>
   );
