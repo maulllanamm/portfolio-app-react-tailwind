@@ -3,10 +3,10 @@ import ProjectClothingVue from '../../Assets/Project/Clothing store vue.png';
 
 export default function ImageProject() {
   return (
-    <div class="rounded-lg h-64 overflow-hidden">
+    <div className="rounded-lg h-64 overflow-hidden">
       <img
         alt="content"
-        class="object-cover object-center h-full w-full"
+        className="object-cover object-center h-full w-full"
         src={ProjectClothingVue}
       />
     </div>

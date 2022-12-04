@@ -4,7 +4,7 @@ import ExperienceStep from '../Molecules/ExperienceStep';
 export default function ExperienceBody() {
   return (
     <>
-      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto ">
+      <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto ">
         <ExperienceStep
           numberstep={''}
           title="magang"
@@ -18,7 +18,7 @@ export default function ExperienceBody() {
       "
         />
       </div>
-      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto ">
+      <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto ">
         <ExperienceStep
           numberstep={''}
           title="ummi"

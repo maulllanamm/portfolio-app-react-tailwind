@@ -1,0 +1,86 @@
+{
+  "frontend": [
+    {
+      "icon": "html",
+      "name": "HTML",
+      "level": "Advance"
+    },
+    {
+      "icon": "css",
+      "name": "Css",
+      "level": "Advance"
+    },
+    {
+      "icon": "javascript",
+      "name": "Javascript",
+      "level": "Advance"
+    },
+    {
+      "icon": "bootstrap",
+      "name": "Bootstrap",
+      "level": "Advance"
+    },
+    {
+      "icon": "tailwind",
+      "name": "Tailwind",
+      "level": "Advance"
+    },
+    {
+      "icon": "react",
+      "name": "React Js",
+      "level": "Advance"
+    },
+    {
+      "icon": "vue",
+      "name": "Vue Js",
+      "level": "Beginner"
+    },
+    {
+      "icon": "jquery",
+      "name": "Jquery",
+      "level": "Advance"
+    }
+  ],
+  "backend": [
+    {
+      "icon": "node",
+      "name": "Node Js",
+      "level": "Advance"
+    },
+    {
+      "icon": "express",
+      "name": "Express Js",
+      "level": "Advance"
+    },
+    {
+      "icon": "mongodb",
+      "name": "Mongo Db",
+      "level": "Beginner"
+    },
+    {
+      "icon": "json",
+      "name": "JSON",
+      "level": "Advance"
+    },
+    {
+      "icon": "api",
+      "name": "REST API",
+      "level": "Advance"
+    },
+    {
+      "icon": "php",
+      "name": "PHP",
+      "level": "Advance"
+    },
+    {
+      "icon": "ci",
+      "name": "CodeIgniter",
+      "level": "Advance"
+    },
+    {
+      "icon": "mysql",
+      "name": "MySql",
+      "level": "Advance"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export default function ExperienceStep({
   return (
     <>
       <LineStep numberstep={numberstep} />
-      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row ">
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row ">
         <ImageStep title={title} />
         <TitleStep
           titlestep={titlestep}

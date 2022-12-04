@@ -4,7 +4,7 @@ import ImageProject from '../Atoms/ImageProject';
 
 export default function ProjectBox() {
   return (
-    <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+    <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
       <ImageProject />
       <DescriptionProject
         title="Clothing Project"
