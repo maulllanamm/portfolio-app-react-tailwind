@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Pages/Contact';
 import Experience from './Pages/Experience';
 import Hero from './Pages/Hero';
 import Project from './Pages/Project';
@@ -11,6 +12,7 @@ function App() {
       <Experience />
       <Project />
       <Skills />
+      <Contact />
     </>
   );
 }
