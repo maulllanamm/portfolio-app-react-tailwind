@@ -11,7 +11,7 @@ export default function ContactBody() {
           data-aos-offset="700"
           data-aos-duration="1000">
           <div className="relative">
-            <label for="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
@@ -28,7 +28,7 @@ export default function ContactBody() {
           data-aos-offset="700"
           data-aos-duration="1000">
           <div className="relative">
-            <label for="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
             <input
@@ -46,7 +46,9 @@ export default function ContactBody() {
           data-aos-delay="200"
           data-aos-duration="1000">
           <div className="relative">
-            <label for="message" className="leading-7 text-sm text-gray-400">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-gray-400">
               Message
             </label>
             <textarea
