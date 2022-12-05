@@ -2,7 +2,11 @@ import React from 'react';
 
 export default function Switch() {
   return (
-    <div className="navbar-end">
+    <div
+      className="navbar-end"
+      data-aos="fade-down"
+      data-aos-delay="1000"
+      data-aos-duration="1000">
       <label className="swap swap-rotate">
         <input type="checkbox" />
         <svg

@@ -3,7 +3,11 @@ import IconsSkills from '../Atoms/IconsSkills';
 
 export default function SkillsCard({ skillsicon, skillsname, skillslevel }) {
   return (
-    <div className="p-2 lg:w-1/4 md:w-1/2 w-full">
+    <div
+      className="p-2 lg:w-1/4 md:w-1/2 w-full"
+      data-aos="fade-down"
+      data-aos-offset="700"
+      data-aos-duration="1000">
       <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
         <IconsSkills skillsicon={skillsicon} />
         <div className="flex-grow">

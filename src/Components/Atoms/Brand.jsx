@@ -2,7 +2,11 @@ import React from 'react';
 
 export default function Brand() {
   return (
-    <div className="navbar-start">
+    <div
+      className="navbar-start"
+      data-aos="fade-down"
+      data-aos-delay="200"
+      data-aos-duration="1000">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
           <svg

@@ -5,7 +5,10 @@ import Nav from '../Molecules/Nav';
 
 export default function HeroHeader() {
   return (
-    <div className="navbar bg-base-100">
+    <div
+      className="navbar bg-base-100"
+      data-aos="fade-down"
+      data-aos-duration="1000">
       <Brand />
       <Nav />
       <Switch />

@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeroLeft from '../Molecules/HeroLeft';
 import HeroRight from '../Molecules/HeroRight';
-import Icons from '../Molecules/Icons';
+// aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function HeroPage() {
+  useEffect(() => {
+    AOS.init({
+      disable: function () {
+        var maxWidth = 700;
+        return window.innerWidth < maxWidth;
+      },
+    });
+  }, []);
   return (
     <section className="text-gray-400 body-font relative">
       {/* <Icons width={135} /> */}

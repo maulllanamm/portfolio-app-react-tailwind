@@ -7,7 +7,7 @@ export default function DescriptionProject({ title, desc }) {
         {title}
       </h2>
       <p className="text-base leading-relaxed mt-2">{desc}</p>
-      <a href="#" className="text-indigo-400 inline-flex items-center mt-3">
+      <a href="#" className="text-info inline-flex items-center mt-3">
         Check out
         <svg
           fill="none"
