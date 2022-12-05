@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../Assets/Logo/logo.svg';
 
 export default function Brand() {
   return (
@@ -40,7 +41,9 @@ export default function Brand() {
           </li>
         </ul>
       </div>
-      <a className="btn btn-ghost normal-case text-xl">MCode</a>
+      <a className="btn btn-ghost normal-case text-xl">
+        <img src={Logo} alt="logo" width={70} />
+      </a>
     </div>
   );
 }

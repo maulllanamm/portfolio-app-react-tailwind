@@ -6,7 +6,7 @@ import Nav from '../Molecules/Nav';
 export default function HeroHeader() {
   return (
     <div
-      className="navbar bg-base-100"
+      className="navbar bg-base-100 p-5"
       data-aos="fade-down"
       data-aos-duration="1000">
       <Brand />
