@@ -8,9 +8,7 @@ export default function Skills() {
       <div className="container px-5 py-24 mx-auto">
         <SkillsHeader
           title="My Skills"
-          subtitle="Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-        heard of them."
+          subtitle="These are my skills in frontend and backend that will be used when your application is deployed to the cloud."
         />
         <SkillsBody title="Frontend" />
         <SkillsBody title="Backend" />

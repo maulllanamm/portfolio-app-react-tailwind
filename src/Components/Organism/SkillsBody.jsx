@@ -10,7 +10,7 @@ export default function SkillsBody({ title }) {
       <div
         className="flex flex-col text-center w-full my-5"
         data-aos="fade-down"
-        data-aos-offset="700"
+        data-aos-offset="500"
         data-aos-duration="1000">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
           {title}
